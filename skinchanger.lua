@@ -1,3 +1,4 @@
+
 local activeWeapons = {}
 local playerName = game:GetService("Players").LocalPlayer.Name
 local assetFolder = game:GetService("Players").LocalPlayer.PlayerScripts.Assets.ViewModels
@@ -31,3 +32,17 @@ function Functions:swapWeaponSkins(normalWeaponName, skinName, State)
         activeWeapons[normalWeaponName] = nil
     end
 end
+
+Functions:swapWeaponSkins("Assault Rifle", "AKEY-47", true)
+Functions:swapWeaponSkins("Handgun", "Blaster", true)
+Functions:swapWeaponSkins("Grenade", "Whoopee Cushion", true)
+Functions:swapWeaponSkins("Fists", "Boxing Gloves", true)
+Functions:swapWeaponSkins("Scythe", "Keythe", true)
+Functions:swapWeaponSkins("Assault Rifle", "AKEY-47", true)
+Functions:swapWeaponSkins("Handgun", "Blaster", true)
+Functions:swapWeaponSkins("Grenade", "Water Balloon", true)
+Functions:swapWeaponSkins("Uzi", "Electro Uzi", true)
+Functions:swapWeaponSkins("Scythe", "Anchor", true)
+Functions:swapWeaponSkins("Molotov", "Coffee", true)
+Functions:swapWeaponSkins("Fists", "Pumpkin Claws", true)
+Functions:swapWeaponSkins("Katana", "Saber", true)
